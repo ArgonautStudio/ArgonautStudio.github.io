@@ -10,8 +10,8 @@ blog:
                                this should contain a proper description
 
 # Layout configuration
-  logo_path                  : "assets/img/logo.svg" # path to logo file
-  search_path                : # "yourgitusername.github.io"
+  logo_path                  : "assets/img/logo.png" # path to logo file
+  search_path                : argonautstudio.github.io
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
@@ -35,8 +35,8 @@ author:
   stackoverflow             : stackoverflow-user-name
   disqus                    : dactl # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
-  photo                     : "uploads/me2.png"
-  photo2x                   : "uploads/me.png"
+  photo                     : "assets/img/logowtext.png"
+  photo2x                   : "assets/img/logowtext.png"
 
 
 

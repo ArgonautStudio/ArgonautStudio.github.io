@@ -1,13 +1,14 @@
 <header>
     <div class="menu">
       <div class="logo">
-        <img src="{{ site.blog.logo_path | relative_url  }}" class="logosvg"></img>
+        <a href="/">
+          <img src="{{ site.blog.logo_path | relative_url  }}" class="logosvg"></img>
+        </a>
       </div>
-
-        <ul>
-            <li><a href="{{ '/about' | prepend: site.baseurl }}">about</a></li>
-            <li><a href="{{ '/archive' | prepend: site.baseurl }}">archive</a></li>
-        </ul>
+      <ul>
+          <li><a href="/about">about</a></li>
+          <li><a href="/archive">archive</a></li>
+      </ul>
     </div>
     <div class="social">
       <ul>
