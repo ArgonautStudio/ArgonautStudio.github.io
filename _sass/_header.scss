@@ -12,7 +12,8 @@ header {
     color: var(--link-color);
 
     .logosvg {
-    	  height: 2.7rem;
+        margin: 0 !important;
+    	  height: 5rem;
         -webkit-filter: var(--invert-logo-color);
     }
 }
@@ -86,8 +87,7 @@ header {
       margin-top: 5rem;
       .logosvg {
         display: block;
-        margin: -9rem auto 5rem auto;
-        height: 3rem;
+        height: 5rem;
       }
     }
 }
