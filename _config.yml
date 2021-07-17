@@ -1,13 +1,12 @@
 # Base blog settings
-baseurl                      : "/" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
 url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
-  description                  : >
-                               this should contain a proper description
+  title                      : Argonaut Studio
+  description                  : Argonaut Studio Official Website
 
 # Layout configuration
   logo_path                  : "assets/img/logo.png" # path to logo file
@@ -20,23 +19,25 @@ blog:
   titles_only                : false # show post titles only on main blog page
 
 # Fonts
-  font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
-  load_google_fonts          : 'Rubik:400,400italic,700,700italic'
+  font                       : '"Manrope", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
+  load_google_fonts          : 'Manrope:wght@200;300;400;500;600;700;800'
 
 
 # Author info
 author:
-  fullname                  : Your Name
-  rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
-  youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
-  disqus                    : dactl # your disqus site name
-  google_analytics          : # 'UA-XXXXXXXX-X'
+  fullname                    : Argonaut Studio
+  # rss                       : true # generate RSS feed and show it's icon in header
+  mail                        : hello@argonaut-studio.com # change to your e-mail address
+  facebook                    : https://www.facebook.com/Argonaut.Studio.official/
+  instagram                   : argonaut.studio.official
+  # twitter                     : twitter-user-name
+  # github                    : github-user-name
+  # youtube                   : youtube-user-name
+  # stackoverflow             : stackoverflow-user-name
+  # disqus                    : dactl # your disqus site name
+  # google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "assets/img/logowtext.png"
-  photo2x                   : "assets/img/logowtext.png"
+  photo2x                   : "assets/img/banner.png"
 
 
 

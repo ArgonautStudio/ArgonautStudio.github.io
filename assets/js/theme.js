@@ -9,7 +9,7 @@ Object.entries = (object) => Object.keys(object).map(
 const isObject = (obj) => obj === Object(obj)
 
 const LightTheme = {
-  '--bg-color': '#F4F6F9',
+  '--bg-color': '#ffffff',
   '--text-color': '#484848',
   '--text-color-light': '#828282',
   '--link-color': '#000',
@@ -89,9 +89,9 @@ const switchTheme = () => {
 
 const iconForTheme = (themeName) => {
   if (themeName === NightTheme.themeName) {
-    return 'icon-invert_colors'
+    return 'far fa-lightbulb'
   } else {
-    return 'icon-invert_colors2'
+    return 'far fa-lightbulb'
   }
 }
 

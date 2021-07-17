@@ -7,7 +7,8 @@
       </div>
       <ul>
           <li><a href="/about">about</a></li>
-          <li><a href="/archive">archive</a></li>
+          <li><a href="/">posts</a></li>
+          <li><a href="/tag/career">career</a></li>
       </ul>
     </div>
     <div class="social">
@@ -26,13 +27,28 @@
             </a>
         </li>
         {% endif %}
-        {% if site.author.twitter %}
+        {% if site.author.facebook %}
         <li>
-            <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
-              <span class="icon-twitter"></span>
+            <a href="https://instagram.com/{{ site.author.facebook }}" target="_blank" class="smaller">
+              <span class="fab fa-facebook-f"></span>
             </a>
         </li>
         {% endif %}
+        {% if site.author.instagram %}
+        <li>
+            <a href="https://instagram.com/{{ site.author.instagram }}" target="_blank" class="smaller">
+              <span class="fab fa-instagram"></span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.author.twitter %}
+        <li>
+            <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
+              <span class="fab fa-twitter"></span>
+            </a>
+        </li>
+        {% endif %}
+ 
         {% if site.author.github %}
         <li>
             <a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller">
@@ -43,7 +59,7 @@
         {% if site.author.mail %}
         <li>
             <a href="mailto:{{ site.author.mail }}" target="_blank">
-              <span class="icon-mail_outline"></span>
+              <span class="far fa-envelope"></span>
             </a>
         </li>
         {% endif %}
@@ -56,7 +72,7 @@
         {% endif %}
         <li>
             <a href="#" onclick="switchTheme()" title="Switch theme?">
-              <span class="icon-invert_colors" id="theme-switcher"></span>
+              <span class="far fa-lightbulb" id="theme-switcher"></span>
             </a>
         </li>
       </ul>

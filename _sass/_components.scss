@@ -125,12 +125,12 @@
 
 // Photo in About page
 .me {
-  width: 20rem;
+  width: 100vw;
   position: relative;
 }
 @media (max-width: 50em) {
   .me {
-    width: 20rem;
+    width: 100vw;
     margin-top: -4.8rem;
   }
 }
