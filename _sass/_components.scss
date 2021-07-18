@@ -15,7 +15,7 @@
   list-style: none;
   font-weight: normal;
   a {
-    color: var(--text-color);
+    color: var(--text-color) !important;
   }
   li {
     margin-top: 1rem;
