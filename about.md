@@ -23,7 +23,7 @@ We, Argonaut Studio (PT. Argonaut Padjadjaran), are Indonesian-based software co
 
 
 ### Contact
-<i class="far fa-envelope"></i> hello@argonaut.com  
+<i class="far fa-envelope"></i> hello@argonaut-studio.com  
 <i class="fas fa-phone"></i> +628994118000  
 <i class="fas fa-map-marker-alt"></i> Jln. Raya Sukabumi No 113 Cianjur, West Java, Indonesia.
 </div>
